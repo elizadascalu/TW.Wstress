@@ -1,0 +1,182 @@
+html
+{
+  background: CornflowerBlue ;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4.44rem;
+  padding: 0 12%;
+  background-color: white;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+  font-family: Verdana, sans-serif;
+  font-size: .77rem;
+}
+.header .logo {
+  flex-grow: 1;
+  color: #ffb78c;
+}
+
+.header li {
+  display: inline;
+  padding-right: 2.22rem;
+}
+
+.header li a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+.header .logo
+{
+    flex-grow: 0;
+}
+.yes
+{
+  color: green;
+}
+.no
+{
+  color: red;
+}
+.descriere1
+{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+.descriere2
+{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  color: #FFFFFF;
+
+}
+
+.titlu
+{
+font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 41px;
+text-align: center;
+color: #FDFEFE;
+}
+.home
+{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+color: #FDFEFE;
+}
+.subtitlu
+{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+text-align: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+color: #FDFEFE;
+}
+
+@keyframes fade-in
+{
+    from {opacity: 0; transform: scale(.7,.7)}
+    to {opacity: 1;}
+}
+
+.descriere
+{
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 29px;
+text-align: center;
+color: #FFFFFF;
+height: 10em;
+margin: 70px;
+animation: fade-in 1.4s;
+}
+
+
+div
+{
+text-align:center;
+}
+
+.url
+{
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 28px;
+text-align: center;
+color: #FDFEFE;
+
+}
+.link
+{
+width: 513px;
+height: 50px;
+background: #FFFFFF;
+border: 1px solid rgba(13, 7, 2, 0.6);
+box-sizing: border-box;
+padding: 10px;
+}
+
+.submit
+{
+
+padding: 10px;
+font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: normal;
+
+color: #FF685A;
+border-radius: 12px;
+background-color: white;
+}
+
+.submit:hover
+{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.green
+ {
+  background-color: DarkSeaGreen;
+}
+
+.light
+ {
+  background-color: Sienna;
+}
+
+.city
+ {
+  background-color: SaddleBrown;
+}
+
+.vienna
+ {
+  background-color: Brown;
+}
