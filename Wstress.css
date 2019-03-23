@@ -99,21 +99,6 @@ color: #FDFEFE;
     to {opacity: 1;}
 }
 
-.descriere
-{
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 29px;
-text-align: center;
-color: #FFFFFF;
-height: 10em;
-margin: 70px;
-animation: fade-in 1.4s;
-}
-
 
 div
 {
