@@ -1,0 +1,17 @@
+ul {
+  
+  padding: 0;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+li { 
+  margin: 10px;
+  padding-left: 16px; 
+  font-size: 18px;
+}
+
+li::before {
+  padding-right: 8px;
+  content: "-";
+}
