@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html lang="ro">
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+		<title>WStress-Raport</title>
+		<link rel="stylesheet" href="WStress-Raport.css">
+
+	</head>
+
+	<body>
+		
+		<header>
+			<h1>WStress - Raport Tehnic</h1>
+		</header>
+
+		<div role="content">
+			<dl>
+				<dt>Autori</dt>
+				<dd>
+					Dascalu Eliza-Ioana &amp; Darie Dragos
+				</dd>
+				<dt>Github repository</dt>
+				<dd>
+					<a href="https://github.com/elizadascalu/TW.Wstress">https://github.com/elizadascalu/TW.Wstress</a>
+				</dd>
+			</dl>
+		</div>
+
+		<section id="functionalitati">
+			<h2>Functionalitati</h2>
+			<p>
+				
+Websiteul creat de noi este un instrument de testare si de stresare pentru aplicatii Web. <br>
+<br>
+Utilizatorul va avea posibilitatea detectarii:<br>
+-mărimii inadecvate a unor fişiere<br>
+-aspectelor legate de performanta<br>
+-aspectelor legate de calitatea codului<br>
+-headere<br>
+-statistici disponibile şi prin intermediul unui serviciu Web<br>
+
+
+<br>
+Mai mult, se vor putea alege diverse scenarii de vizitare automată a sitului pentru a se studia punctele mai dificil de accesat.</p>
+		</section>
+
+		<section typeof="sa:image" id="diagrama">
+			<h2>Diagrama arhitecturala</h2>
+			<figure>
+				<img id="image" src="da.png" alt="Diagrama arhitecturala"> <br>
+				<figcaption id="caption">Diagrama arhitecturala</figcaption>
+			</figure>
+		</section>
+
+		<section id="user_scenario">
+			<h2>User scenario</h2>
+			<p>
+				Orice utilizator care isi creeaza cont poate folosi aplicatia.
+			</p>
+			<ul>
+				<li>
+					Utilizatorul introduce linkul websitului despre care vrea sa afle date.
+				</li>
+				
+				<li>
+					Datele vor fi distribuite pe categorii, astfel utilizatorul poate alege sa se afiseze doar anumite informatii.
+				</li>
+				<li>
+					Se vor oferi resurse de informare pentru testele care nu au un rezultat tocmai pozitiv.
+				</li>
+			</ul>
+		</section>
+
+		<section id="module">
+			<h2>Module functionale</h2>
+			<ul>
+				<li>
+					Sign up.
+				</li>
+				<li>
+					Log in.
+				</li>
+				<li>
+					Afisare calitate cod, headere, compresii, legaturi invalide.
+				</li>
+				<li>
+					Afisare aspecte de performanta preluate cu Apache Benchmarks.
+				</li>
+			
+			</ul>
+		</section>
+
+		<section id="used_technologies">
+			<h2>Used technologies</h2>
+			<ul>
+				<li>
+					Am folosit Figma pentru user flow, UI/UX
+				</li>
+				<li>
+					Aplicatia este creata folosind PHP
+				</li>
+				<li>
+					Serverul folosit este Apache
+				</li>
+				<li>
+					Baze de date SQL pentru conturile utilizatorilor.
+				</li>
+				<li>
+					Partea de client va include HTML, CSS si JavaScript
+				</li>
+			</ul>
+		</section>
+
+		<section id="api">
+			<h2>API</h2>
+			<ul>
+				<li>
+					API  mysql pentru conectarea la baza de date.
+				</li>
+				<li>
+					CSS Validator
+				</li>
+				<li>
+					Markup Validator
+				</li>
+
+				<li>
+				https://api.hackertarget.com/pagelinks - pentru afisarea tutoror linkurilor accesibile dntr-o pagina
+				</li>
+				<li>
+				https://api.hackertarget.com/httpheaders - pentru afisarea headerelor dintr-o pagina
+				</li>
+				<li>
+					HTML APIS (&lt;input&gt;,&lt;nav&gt;)
+				</li>
+				
+				<li>
+					Apache Benchmarks
+				</li>
+			</ul>
+		</section>
+
+		<section id="views">
+			<h2>Views</h2>
+			<ul>
+				<li>
+					O fereastra pop-up care contine textul “Passwords don't match!” in cazul in care la sign up fieldurile de password si repeat passworn nu corespund.
+				</li>
+				
+			</ul>
+		</section>
+
+		<section id="stages">
+			<h2>Etapele intermediare ale dezvoltarii</h2>
+			<ul>
+				<li>
+					Proiectarea si interfata pentru afisarea rezultatelor proiectate.
+				</li>
+				<li>
+					Legatura cu baza de date pentru sign up si log in.
+				</li>
+			</ul>
+		</section>
+
+
+
+	</body>
+
+
+
+</html>
